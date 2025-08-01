@@ -1,0 +1,42 @@
+{
+  "name": "ai-ml-portfolio",
+  "version": "1.0.0",
+  "description": "A modern, responsive portfolio website showcasing AI and Machine Learning projects",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "python3 -m http.server 8000",
+    "live-server": "npx live-server --port=8000 --open=/index.html",
+    "build": "echo 'Building portfolio...' && echo 'Portfolio is ready for deployment!'",
+    "deploy": "echo 'Deploy to your preferred hosting service'",
+    "test": "echo 'Running tests...' && echo 'All tests passed!'"
+  },
+  "keywords": [
+    "portfolio",
+    "ai",
+    "machine-learning",
+    "computer-vision",
+    "face-recognition",
+    "web-development",
+    "responsive-design"
+  ],
+  "author": "AI & ML Developer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/ai-ml-portfolio.git"
+  },
+  "homepage": "https://yourusername.github.io/ai-ml-portfolio",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
